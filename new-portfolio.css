@@ -67,7 +67,7 @@ a:hover {
 }
 
 .icon {
-    color: rgb(174, 174, 174); /* TODO: add diff colors for each icon when hovered*/
+    color: rgb(174, 174, 174);
     font-size: 2rem;
     padding-right: 15px;
 }
@@ -75,4 +75,32 @@ a:hover {
 .icon:hover {
     color: white;
     cursor: pointer;
+}
+
+#linkedin:hover {
+    color: #0072b1;
+}
+
+#reddit:hover {
+    color: #FF5700;
+}
+
+#youtube:hover {
+    color: #FF0000;
+}
+
+#twitter:hover {
+    color: #1DA1F2;
+}
+
+#spotify:hover {
+    color: #1DB954;
+}
+
+#pinterest:hover {
+    color: #E60023;
+}
+
+.main-footer {
+    color: white;
 }
