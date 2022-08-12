@@ -50,3 +50,14 @@ a:hover {
     color: white;
     font-size: 2rem;
 }
+
+.icons-container {
+    width: 100%;
+    text-align: center;
+}
+
+.icons-flex {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 100px;
+}
