@@ -59,5 +59,21 @@ a:hover {
 .icons-flex {
     margin: 0 auto;
     margin-top: 100px;
+    padding: 5px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    color: rgb(174, 174, 174);
+    font-size: 2rem;
+}
+
+.icon:hover {
+    color: white;
+    cursor: pointer;
 }
