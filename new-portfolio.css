@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    height: 100%;
+    background-color: #040e1e;
+}
+
+h1 {
+    all: initial;
+}
+
+img {
+    all: initial;
+}
+
+h1 {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #FF8B00;
+}
+
+.main-heading {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+}
+
+.subtitle p {
+    color: white;
+    font-size: 2rem;
+}
