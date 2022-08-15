@@ -104,3 +104,10 @@ a:hover {
 .main-footer {
     color: white;
 }
+
+.links-container {
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
