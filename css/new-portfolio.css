@@ -17,6 +17,14 @@ h1 {
     all: initial;
 }
 
+h2 {
+    all: initial;
+}
+
+h3 {
+    all: initial;
+}
+
 img {
     all: initial;
 }
@@ -25,6 +33,20 @@ h1 {
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     font-size: 5rem;
+    font-weight: 200;
+}
+
+h2 {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+h3 {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    font-size: 1.5rem;
     font-weight: 200;
 }
 
@@ -38,7 +60,7 @@ a:hover {
 
 .main-heading {
     text-align: center;
-    padding-top: 150px;
+    padding-top: 25px;
 }
 
 .subtitle {

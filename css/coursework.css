@@ -1,0 +1,33 @@
+.courses-year-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.courses-semester-container {
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: left;
+    width: 100%;
+}
+
+.courses-semester-heading h2 {
+    font-weight: 400;
+}
+
+.course-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.course-heading h3 {
+    font-weight: 400;
+}
+
+.course-content p {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 200;
+}
