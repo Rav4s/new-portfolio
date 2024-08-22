@@ -32,8 +32,7 @@ img {
 h1 {
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-    font-size: 5rem;
-    font-weight: 200;
+    font-size: 4.3rem;
 }
 
 h2 {
@@ -60,29 +59,31 @@ a:hover {
 
 .main-heading {
     text-align: center;
-    padding-top: 25px;
+    margin-top: 0;
 }
 
 .subtitle {
     color: white;
-    text-align: center;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
 
 .subtitle p {
     color: white;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 .icons-container {
     width: 100%;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .icons-flex {
     margin: 0 auto;
-    margin-top: 100px;
-    padding: 5px;
-    height: 100px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,8 +91,9 @@ a:hover {
 
 .icon {
     color: rgb(174, 174, 174);
-    font-size: 2rem;
-    padding-right: 15px;
+    font-size: 1.2rem;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .icon:hover {
@@ -128,12 +130,33 @@ a:hover {
 }
 
 .links-container {
-    padding-top: 60px;
     color: white;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin-top: 0;
+
 }
 
 .links-container a {
     margin: 10px;
+    margin-top: 0;
+}
+
+.main-desc p {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.profile-container {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.profile-container img {
+    clip-path: circle();
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
