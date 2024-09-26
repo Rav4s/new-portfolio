@@ -1,0 +1,52 @@
+.projects-page-heading h1 {
+    font-size: 3.3rem;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.projects-page-subheading h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.projects-page-heading {
+    text-align: center;
+}
+
+.projects-page-subheading {
+    text-align: center;
+}
+
+.projects-container {
+    text-align: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1rem;
+    margin: 15px;
+}   
+
+.project-container {
+    text-align: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-heading h3 {
+    font-weight: 400;
+}
+
+.project-content p {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 200;
+}
