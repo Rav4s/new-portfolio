@@ -157,6 +157,6 @@ a:hover {
 .profile-container img {
     clip-path: circle();
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     height: auto;
 }
