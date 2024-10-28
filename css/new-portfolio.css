@@ -25,14 +25,10 @@ h3 {
     all: initial;
 }
 
-img {
-    all: initial;
-}
-
 h1 {
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-    font-size: 4.3rem;
+    font-size: 3.2rem;
 }
 
 h2 {
@@ -57,17 +53,30 @@ a:hover {
     color: #FF8B00;
 }
 
-.main-heading {
-    text-align: center;
+.header-container {
+    text-align: left;
     margin-top: 0;
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+
+.header-spacer {
+    clear: both;
+}
+
+.main-heading {
+    text-align: left;
+    margin-top: 0;
+    margin-left: 1rem;
+    width: fit-content;
+    float: left;
 }
 
 .subtitle {
     color: white;
     text-align: left;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+    width: 60%
 }
 
 .subtitle p {
@@ -76,9 +85,9 @@ a:hover {
 }
 
 .icons-container {
-    width: 100%;
     text-align: center;
-    margin-bottom: 0;
+    height: 100%;
+    float: right;
 }
 
 .icons-flex {
@@ -91,13 +100,13 @@ a:hover {
 
 .icon {
     color: rgb(174, 174, 174);
-    font-size: 1.2rem;
-    margin-right: 40px;
-    margin-left: 40px;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .icon:hover {
-    color: white;
+    color: purple;
     cursor: pointer;
 }
 
@@ -105,24 +114,8 @@ a:hover {
     color: #0072b1;
 }
 
-#reddit:hover {
-    color: #FF5700;
-}
-
 #mail:hover {
     color: #FF0000;
-}
-
-#twitter:hover {
-    color: #1DA1F2;
-}
-
-#spotify:hover {
-    color: #1DB954;
-}
-
-#pinterest:hover {
-    color: #E60023;
 }
 
 .main-footer {
@@ -134,6 +127,7 @@ a:hover {
     text-align: center;
     font-size: 1.3rem;
     margin-top: 0;
+    float: right;
 
 }
 
@@ -150,13 +144,88 @@ a:hover {
 }
 
 .profile-container {
+    display: block;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 60px;
+    float: right;
+    height: 100%;
+    width: 30%;
 }
 
 .profile-container img {
-    clip-path: circle();
     width: 100%;
-    max-width: 250px;
+    max-width: 350px;
     height: auto;
+    border-radius: 5%;
+}
+
+.main-stuff {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: block;
+    text-align: center;
+}
+
+.resume {
+    width: 75%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .main-heading {
+        width: 100%;
+        text-align: center;
+        clear: both;
+    }
+
+    .links-container {
+        clear: both;
+        text-align: center;
+        width: 100%;
+    }
+
+    .icons-container {
+        clear: both;
+        text-align: center;
+        width: 100%;
+    }
+
+    .subtitle {
+        width: 100%;
+        clear: both;
+    }
+
+    .profile-container {
+        width: 100%;
+        clear: both;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+
+    .profile-container img {
+        max-width: 250px;
+    }
+
+    .resume {
+        width: 95%;
+    }
+
+    .resume iframe {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resume iframe {
+        height: 500px;
+    }
 }
