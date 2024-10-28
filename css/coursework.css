@@ -1,6 +1,10 @@
+.coursework-page-heading {
+    text-align: center;
+}
+
 .coursework-page-heading h1 {
-    font-size: 3.3rem;
-    text-align: left;
+    font-size: 3rem;
+    text-align: center;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;

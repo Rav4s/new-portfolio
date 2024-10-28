@@ -7,3 +7,6 @@ document.getElementById("linkedin").onclick = function() {
 document.getElementById("mail").onclick = function() {
     location.href = 'mailto:ravi.shah@utexas.edu'
 };
+document.getElementById("heading").onclick = function() {
+    location.href = '/'
+};

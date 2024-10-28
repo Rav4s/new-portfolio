@@ -53,6 +53,10 @@ a:hover {
     color: #FF8B00;
 }
 
+hr {
+    border: 1px solid rgb(84, 84, 84);
+}
+
 .header-container {
     text-align: left;
     margin-top: 0;
@@ -71,6 +75,7 @@ a:hover {
     margin-left: 1rem;
     width: fit-content;
     float: left;
+    cursor: pointer;
 }
 
 .subtitle {
