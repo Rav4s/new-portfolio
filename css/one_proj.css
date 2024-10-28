@@ -1,3 +1,13 @@
+ul {
+    font-weight: 200;
+    margin-top: 0.5rem;
+}
+
+li {
+    color: white;
+    font-size: 1.1rem;
+}
+
 .project-title {
     text-align: center;
 }
@@ -16,14 +26,14 @@
 }
 
 .left {
-    width: 50%;
+    width: 40%;
     float: left;
     padding: 1rem;
     text-align: center;
 }
 
 .right {
-    width: 50%;
+    width: 60%;
     float: right;
     padding: 1rem;
 }
@@ -34,6 +44,7 @@
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     font-size: 1.2rem;
     font-weight: 200;
+    margin-bottom: 0;
 }
 
 .project-desc p b {
@@ -51,6 +62,7 @@
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1.5rem;
 }
 
 .project-image img {
@@ -62,9 +74,41 @@
     max-height: 100%;
     object-fit: cover !important;
     overflow: hidden;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 
 .one-project {
     margin-top: 1rem;
+}
+
+#project-blog:hover {
+    color: rgb(96, 189, 255);
+}
+
+#project-video:hover {
+    color: red;
+}
+
+#project-writeup:hover {
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .left {
+        width: 100%;
+        text-align: center;
+        clear: both;
+        margin-left: 0;
+    }
+
+    .right {
+        width: 100%;
+        clear: both;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+
+    .project-image img {
+        max-width: 400px;
+    }
 }

@@ -81,7 +81,6 @@
                     <div class="icon" id="mail">
                         <i class="fa fa-envelope fa-2xl"></i>
                     </div>
-
                 </div>
             </div>
 
@@ -114,15 +113,55 @@
                     <img src="/img/shift-indicator.jpg" alt="Sequential Shift Indicator with 7 LED display">
                 </div>
                 <div class="project-links">
-                    <p>put icons here - writeup, github, blog post, video</p>
+                    <div class="icons-flex">
+                        <div class="icon" id="project-writeup">
+                            <i class="fa-solid fa-book fa-2xl"></i>
+                        </div>
+                        <div class="icon" id="project-github">
+                            <i class="fa-brands fa-github fa-2xl"></i>
+                        </div>
+                        <div class="icon" id="project-blog">
+                            <i class="fa-solid fa-globe fa-2xl"></i>
+                        </div>
+                        <div class="icon" id="project-video">
+                            <i class="fa-solid fa-video fa-2xl"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
-    
+
             <div class="right">
                 <div class="project-desc">
-                    <p><b>Skills &amp; Tools:</b> PCB design...</p>
-                    <p><b>Key Objectives:</b> build it...</p>
-                    <p><b>What I learned:</b> what did i do...</p>
+                    <p>I designed and developed a K-Line sequential shift indicator for manual transmission vehicles,
+                        with a custom PCB and full plug-and-play functionality as tested on my Mazda Miata.</p>
+                    <p><b>Skills &amp; Tools:</b> Circuit Design/Analysis, PCB Design (KiCad), Soldering, Autodesk
+                        Fusion CAD, Embedded Development (C++), Technical Documentation, BOM Management</p>
+                    <p><b>Objectives/Features:</b>
+                    <ul>
+                        <li>Displays engine RPM using a set of seven LEDs</li>
+                        <li>Has three distinct LED colors to show progression from low to high RPM (green -> blue ->
+                            red)</li>
+                        <li>Begins illuminating LEDs at the lower end of shift range (3.5k) and fully illuminates by the
+                            higher end (6k), with equal steps in between</li>
+                        <li>Mounts to the dashboard without significantly obstructing the driver's view of the road</li>
+                        <li>Doesn't require any modifications to wiring/electronics of the car (plug-and-play)</li>
+                    </ul>
+                    </p>
+                    <p><b>Takeaways:</b>
+                    <ul>
+                        <li>Learned how to use KiCad through online documentation to produce electrical schematics and
+                            PCB designs</li>
+                        <li>Learned how to connect and operate a Saleae logic analyzer to debug portions of the
+                            electrical circuit and Arduino code</li>
+                        <li>Developed firmware for Arduino to communicate with automotive LIN bus transceiver and drive
+                            LED series</li>
+                        <li>Learned how to optimize 3D models for more efficient printing</li>
+                        <li>Gained experience in prototyping and iteration through the design process, going from an
+                            idea to preliminary designs to a fabricated/tested final product</li>
+                        <li>Described product and process using technical language and IEEE formatting in a technical
+                            writeup</li>
+                    </ul>
+                    </p>
                 </div>
             </div>
         </div>
@@ -134,6 +173,7 @@
     </div>
     <script src="/js/redirects.js"></script>
     <script src="/js/projects.js"></script>
+    <script src="/js/per_project/kline.js"></script>
 
 </body>
 
