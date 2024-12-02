@@ -74,6 +74,10 @@
     height: 100%;
 }
 
+.project-image {
+    height: 100%;
+}
+
 .project-image img {
     width: 100%;
     height: 100%;

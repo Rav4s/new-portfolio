@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Ravi Shah's Portfolio</title>
+    <title>Projects - Ravi Shah's Portfolio</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./css/new-portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="/css/new-portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="/css/one_proj.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <meta name="description"
         content="Hi, I'm Ravi Shah! Find out about my projects, qualifications, and interests here." />
@@ -80,7 +81,6 @@
                     <div class="icon" id="mail">
                         <i class="fa fa-envelope fa-2xl"></i>
                     </div>
-
                 </div>
             </div>
 
@@ -99,39 +99,80 @@
 
         <hr />
 
-        <div class="main-stuff">
-            <div class="profile-container">
-                <img src="/img/portfolio_profile.jpg" alt="Close-up photo of Ravi Shah">
+        <div class="project-title">
+            <h2>1998 Salvage Title Honda Civic Rebuild</h2>
+        </div>
+
+        <div class="project-subtitle">
+            <h3>Personal Project &#9733; May 2021 - Oct 2022</h3>
+        </div>
+
+        <div class="one-project">
+            <div class="left">
+                <div class="project-image">
+                    <img src="/img/civic-rebuild-2.jpg" alt="BLAHBLAH">
+                </div>
+                <div class="project-links">
+                    <div class="icons-flex">
+                        <div class="icon" id="project-writeup">
+                            <i class="fa-solid fa-book fa-2xl"></i>
+                        </div>
+                        <div class="icon" id="project-github">
+                            <i class="fa-brands fa-github fa-2xl"></i>
+                        </div>
+                        <div class="icon" id="project-blog">
+                            <i class="fa-solid fa-globe fa-2xl"></i>
+                        </div>
+                        <div class="icon" id="project-video">
+                            <i class="fa-solid fa-video fa-2xl"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
-    
-            <div class="subtitle">
-                <p>Hi! My name is Ravi Shah, and I'm an Electrical and Computer Engineering student at UT Austin. I'm
-                    interested in the fields of power electronics, embedded systems, and alternative energy.<br /><br />I
-                    enjoy building <a href="/projects">hardware and software projects</a> to solve problems and make life easier. My recent
-                    endeavors include building a <a
-                        href="/projects/k-line-sequential-shift-indicator/">sequential gear-shift
-                        indicator</a> for manual transmission cars and a rocket capable of reaching 820 feet with a secure
-                    payload. Through these projects, I've gained skills in prototyping, PCB design (KiCad), soldering,
-                    component selection, technical writing, and budgeting. Additionally, I have experience with several
-                    tools including Fusion 360, Git, Python, Linux, and automotive electronics (OBDII & CAN/LIN Bus). In my
-                    free time, I enjoy going to motorsports events and car shows at my local racetrack.<br /><br />Through
-                    this portfolio, I aim to give you a clear picture of my experiences, including relevant coursework,
-                    personal projects, and professional experience.</p>
-            </div>    
+
+            <div class="right">
+                <div class="project-desc">
+                    <p>coming soon....</p>
+                    <!--<p><b>Skills &amp; Tools:</b> Circuit Design/Analysis, PCB Design (KiCad), Soldering, Autodesk
+                        Fusion CAD, Embedded Development (C++), Technical Documentation, BOM Management</p>
+                    <p><b>Objectives/Features:</b>
+                    <ul>
+                        <li>Displays engine RPM using a set of seven LEDs</li>
+                        <li>Has three distinct LED colors to show progression from low to high RPM (green -> blue ->
+                            red)</li>
+                        <li>Begins illuminating LEDs at the lower end of shift range (3.5k) and fully illuminates by the
+                            higher end (6k), with equal steps in between</li>
+                        <li>Mounts to the dashboard without significantly obstructing the driver's view of the road</li>
+                        <li>Doesn't require any modifications to wiring/electronics of the car (plug-and-play)</li>
+                    </ul>
+                    </p>
+                    <p><b>Takeaways:</b>
+                    <ul>
+                        <li>Learned how to use KiCad through online documentation to produce electrical schematics and
+                            PCB designs</li>
+                        <li>Learned how to connect and operate a Saleae logic analyzer to debug portions of the
+                            electrical circuit and Arduino code</li>
+                        <li>Developed firmware for Arduino to communicate with automotive LIN bus transceiver and drive
+                            LED series</li>
+                        <li>Learned how to optimize 3D models for more efficient printing</li>
+                        <li>Gained experience in prototyping and iteration through the design process, going from an
+                            idea to preliminary designs to a fabricated/tested final product</li>
+                        <li>Described product and process using technical language and IEEE formatting in a technical
+                            writeup</li>
+                    </ul>
+                    </p>-->
+                </div>
+            </div>
         </div>
 
-        <div class="resume-header" id="resume">
-            <h2>Resume</h2>
-        </div>
-
-        <div class="resume">
-            <iframe src="https://drive.google.com/file/d/18FzSVNvmo2PB5H2fkcPdwhHGGxofkdqr/preview" width="100%" height="800px" loading="lazy"></iframe>
-        </div>
+        <div class="buffer"></div>
 
         <footer class="main-footer">
         </footer>
     </div>
-    <script src="js/redirects.js"></script>
+    <script src="/js/redirects.js"></script>
+    <script src="/js/projects.js"></script>
+    <script src="/js/per_project/kline.js"></script>
 
 </body>
 
