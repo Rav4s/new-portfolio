@@ -120,47 +120,31 @@
                         <div class="icon" id="project-github">
                             <i class="fa-brands fa-github fa-2xl"></i>
                         </div>
-                        <div class="icon" id="project-blog">
-                            <i class="fa-solid fa-globe fa-2xl"></i>
-                        </div>
-                        <div class="icon" id="project-video">
-                            <i class="fa-solid fa-video fa-2xl"></i>
-                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="right">
                 <div class="project-desc">
-                    <p>coming soon....</p>
-                   <!-- <p><b>Skills &amp; Tools:</b> Circuit Design/Analysis, PCB Design (KiCad), Soldering, Autodesk
-                        Fusion CAD, Embedded Development (C++), Technical Documentation, BOM Management</p>
+                    <p>I designed, tested, and validated the hardware and firmware for an environmental monitoring PCB for a solar race car competing in the American Solar Challenge. This telemetry system monitors critical metrics such as battery box cooling to inform development and race strategy.</p>
+                    <p><b>Skills &amp; Tools:</b> Schematic Capture, PCB Design (KiCad), Reflow Soldering, Embedded Software Development (C), STM32 Microcontrollers, Firmware Debugging, Git Version Control, Technical Documentation</p>
                     <p><b>Objectives/Features:</b>
                     <ul>
-                        <li>Displays engine RPM using a set of seven LEDs</li>
-                        <li>Has three distinct LED colors to show progression from low to high RPM (green -> blue ->
-                            red)</li>
-                        <li>Begins illuminating LEDs at the lower end of shift range (3.5k) and fully illuminates by the
-                            higher end (6k), with equal steps in between</li>
-                        <li>Mounts to the dashboard without significantly obstructing the driver's view of the road</li>
-                        <li>Doesn't require any modifications to wiring/electronics of the car (plug-and-play)</li>
+                        <li>Measures environmental data throughout the car, including relative humidity, airflow, and temperature</li>
+                        <li>Interfaces with a Peripheral System-On-Module (SOM) to process data and transmit it via the Data Acquisition CAN bus</li>
+                        <li>Optionally connects to a sensor breakout board for size-constrained environments (intake/exhaust ducts)</li>
+                        <li>Modular design - can pick and choose which sensors to use on each board during assembly</li>
                     </ul>
                     </p>
                     <p><b>Takeaways:</b>
                     <ul>
-                        <li>Learned how to use KiCad through online documentation to produce electrical schematics and
-                            PCB designs</li>
-                        <li>Learned how to connect and operate a Saleae logic analyzer to debug portions of the
-                            electrical circuit and Arduino code</li>
-                        <li>Developed firmware for Arduino to communicate with automotive LIN bus transceiver and drive
-                            LED series</li>
-                        <li>Learned how to optimize 3D models for more efficient printing</li>
-                        <li>Gained experience in prototyping and iteration through the design process, going from an
-                            idea to preliminary designs to a fabricated/tested final product</li>
-                        <li>Described product and process using technical language and IEEE formatting in a technical
-                            writeup</li>
+                        <li>Learned advanced PCB design principles for I2C/CAN communication</li>
+                        <li>Conducted board bringup with GPIO, I2C, ADC, and CAN peripherals for an STM32 microcontroller</li>
+                        <li>Developed firmware to interface peripheral boards with the Data Acquisition telemetry system using a real-time operating system (RTOS)</li>
+                        <li>Implemented extensive debug process using OpenOCD and GDB</li>
+                        <li>Reduced size of sensor breakout board by 500% to meet strict mechanical constraints</li>
                     </ul>
-                    </p>-->
+                    </p>
                 </div>
             </div>
         </div>
@@ -172,7 +156,7 @@
     </div>
     <script src="/js/redirects.js"></script>
     <script src="/js/projects.js"></script>
-    <script src="/js/per_project/kline.js"></script>
+    <script src="/js/per_project/envboard.js"></script>
 
 </body>
 
