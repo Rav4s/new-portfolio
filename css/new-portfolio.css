@@ -229,7 +229,7 @@ hr {
     .profile-container {
         width: 100%;
         clear: both;
-        margin-bottom: 3rem;
+        margin-bottom: 0;
         margin-top: 1rem;
     }
 
@@ -249,5 +249,9 @@ hr {
 @media screen and (max-width: 600px) {
     .resume iframe {
         height: 500px;
+    }
+
+    .profile-container img {
+        max-width: 200px;
     }
 }
